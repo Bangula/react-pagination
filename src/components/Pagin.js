@@ -18,7 +18,6 @@ function Pagin() {
   }, []);
 
   const handlePageChange = pageNum => {
-    console.log(pageNum);
     let page;
     if (pageNum === 1) {
       page = 0;
