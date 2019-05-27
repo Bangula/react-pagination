@@ -20,3 +20,24 @@
 .pagi-list ul {
   list-style-type: none;
 }
+.custom-table {
+  background: black;
+  color: white;
+}
+.custom-table .rt-table {
+  border: 0;
+}
+.custom-table .rt-tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.custom-tabl .pagination-bottom .center {
+  justify-content: stretch;
+  align-items: stretch;
+}
+.ReactTable .-pagination .-btn {
+  color: white !important;
+}
+.rt-th input {
+  background: grey !important;
+  color: #fff;
+}
